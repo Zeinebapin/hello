@@ -1,3 +1,4 @@
+
 <?php
 function getAnnonces()
 {
@@ -8,4 +9,8 @@ function getAnnonces()
     return $data;
 }
 
+function getFirstAnnonce(){
+	$first = current(getAnnonces());
+	return $first;
+}
 ?>
