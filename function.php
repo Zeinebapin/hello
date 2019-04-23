@@ -1,0 +1,10 @@
+<?php
+function getAnnonces()
+{
+    $data = [
+        "annonce1" => ["voiture", 1000]
+    ];
+    return $data;
+}
+
+?>
