@@ -11,5 +11,4 @@ $resultat = getAnnonces();
 </ul>
 <ul>
     <li><?php echo $resultat["annonce2"][0] ?></li>
-    <li><?php echo $resultat["annonce2"][1] ?></li>
 </ul>
